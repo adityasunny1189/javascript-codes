@@ -1,5 +1,5 @@
 //count of no of character in the given string
-//returning the count in object form 
+//returning the count in object form or JSON form
 
 //declaring a string
 var string1 = 'Aditya';
