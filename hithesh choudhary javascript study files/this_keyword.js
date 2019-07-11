@@ -18,7 +18,7 @@ var object = {
         this.left = this.class - this.attended;
     },
     summary: function(){
-        console.log(`${day} total class: ${this.class} class attended: ${this.attended} class bunked: ${this.left}`);
+        console.log(`${this.day} total class: ${this.class} class attended: ${this.attended} class bunked: ${this.left}`);
     },
     reset: function(){
         this.class = 0;
@@ -29,4 +29,5 @@ var object = {
 
 object.add_class(9);
 object.attend_class(4);
+object.bunk_class();
 object.summary();
