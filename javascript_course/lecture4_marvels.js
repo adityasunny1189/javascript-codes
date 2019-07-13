@@ -12,6 +12,8 @@ const marvel_Heros = ['Iron Man','SpiderMan','Capt. America'];
 
 //valid js array
 
+console.log(typeof(marvel_Heros));
+
 const Test_array = ['aditya', 100, true, null];
 
 //accesing an array
